@@ -1,0 +1,171 @@
+/* Import Caramel - Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Caramel&display=swap');
+
+:root {
+  --clr-bkg: #000;
+  --clr-txt: #f7b42f;
+  --clr-txt-h: #fbe997;
+  --clr-txt-sha: #ffcc00;
+  --clr-txt-sha1: #f1f1c1;
+  --clr-bord: #fcfce0;
+  --clr-bord1: #d8b965;
+  --clr-bord2: #9c7625;
+  --cl-boxsha1: #fafac4;
+  --cl-boxsha2: #fdd832;
+  --cl-boxsha3: #f7b42f;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: var(--clr-bkg);
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1.563em;
+  border: none;
+  outline: none;
+}
+
+/* button 1 */
+.buttons .button1 {
+  padding: 15px 25px;
+  font-family: 'Caramel', cursive;
+  font-size: 2em;
+  letter-spacing: .063em;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: center;
+  font-weight: bold;
+  color: var(--clr-txt);
+  border: .125em solid var(--clr-bord1);
+  background-color: var(--clr-bkg);
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+.button1:hover,
+.button1:focus {
+  color: var(--clr-txt-h);
+  text-shadow: 0 0 .313em var(--clr-txt-sha),
+               0 0 .125em var(--cl-boxsha1);
+  border: .15em solid var(--clr-bord);
+  box-shadow: 0 0 .625em var(--cl-boxsha1),
+              0 0 2.5em var(--cl-boxsha2),
+              0 0 3.75em var(--cl-boxsha3),
+              inset 0 0 .625em var(--cl-boxsha1),
+              inset 0 0 .625em var(--cl-boxsha2),
+              inset 0 0 .625em var(--cl-boxsha3);
+    
+}
+
+/* button 2 */
+.buttons .button2 {
+  padding: 15px 25px;
+  font-family: 'Caramel', cursive;
+  font-size: 2em;
+  letter-spacing: .063em;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: -.313em;
+  font-weight: bold;
+  color: var(--clr-txt);
+  border: .125em solid var(--clr-bord1);
+  background-color: var(--clr-bkg);
+  border-radius: .625em;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+.button2:hover,
+.button2:focus {
+  color: var(--clr-txt-h);
+  text-shadow: 0 0 .313em var(--clr-txt-sha),
+               0 0 .125em var(--cl-boxsha1);
+  border: .15em solid var(--clr-bord);
+  box-shadow: 0 0 .625em var(--cl-boxsha1),
+              0 0 2.5em var(--cl-boxsha2),
+              0 0 3.75em var(--cl-boxsha3),
+              inset 0 0 .625em var(--cl-boxsha1),
+              inset 0 0 .625em var(--cl-boxsha2),
+              inset 0 0 .625em var(--cl-boxsha3);
+}
+
+/* button 3 */
+.buttons .button3 {
+  padding: 15px 25px;
+  font-family: 'Caramel', cursive;
+  font-size: 2em;
+  letter-spacing: .063em;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: -.313em;
+  font-weight: bold;
+  color: var(--clr-txt);
+  border: .125em solid var(--clr-bord1);
+  background-color: var(--clr-bkg);
+  border-radius: 3.125em;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+.button3:hover,
+.button3:focus {
+  color: var(--clr-txt-h);
+  text-shadow: 0 0 .313em var(--clr-txt-sha),
+               0 0 .125em var(--cl-boxsha1);;
+  border: .15em solid var(--clr-bord);
+  box-shadow: 0 0 .625em var(--cl-boxsha1),
+              0 0 2.5em var(--cl-boxsha2),
+              0 0 3.75em var(--cl-boxsha3),
+              inset 0 0 .625em var(--cl-boxsha1),
+              inset 0 0 .625em var(--cl-boxsha2),
+              inset 0 0 .625em var(--cl-boxsha3);
+}
+
+/* button 4 */
+.buttons .button4 {
+  justify-content: center;
+  padding: 15px 25px;
+  margin: 0 30%;
+  font-family: 'Caramel', cursive;
+  font-size: 2em;
+  letter-spacing: .063em;
+  text-align: center;
+  vertical-align: center;
+  font-weight: bold;
+  color: var(--clr-txt);
+  border: .125em solid var(--clr-bord1);
+  background-color: var(--clr-bkg);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+.button4:hover,
+.button4:focus {
+  color: var(--clr-txt-h);
+  text-shadow: 0 0 .313em var(--clr-txt-sha),
+               0 0 .125em var(--cl-boxsha1);
+  border: .15em solid var(--clr-bord);
+  box-shadow: 0 0 .625em var(--cl-boxsha1),
+              0 0 2.5em var(--cl-boxsha2),
+              0 0 3.75em var(--cl-boxsha3),
+              inset 0 0 .625em var(--cl-boxsha1),
+              inset 0 0 .625em var(--cl-boxsha2),
+              inset 0 0 .625em var(--cl-boxsha3);      
+}
