@@ -57,7 +57,8 @@ body {
 }
 
 .button1:hover,
-.button1:focus {
+.button1:focus,
+.button1:active {
   color: var(--clr-txt-h);
   text-shadow: 0 0 .313em var(--clr-txt-sha),
                0 0 .125em var(--cl-boxsha1);
@@ -90,7 +91,8 @@ body {
 }
 
 .button2:hover,
-.button2:focus {
+.button2:focus,
+.button2:active {
   color: var(--clr-txt-h);
   text-shadow: 0 0 .313em var(--clr-txt-sha),
                0 0 .125em var(--cl-boxsha1);
@@ -122,7 +124,8 @@ body {
 }
 
 .button3:hover,
-.button3:focus {
+.button3:focus,
+.button3:active {
   color: var(--clr-txt-h);
   text-shadow: 0 0 .313em var(--clr-txt-sha),
                0 0 .125em var(--cl-boxsha1);;
@@ -157,7 +160,8 @@ body {
 }
 
 .button4:hover,
-.button4:focus {
+.button4:focus,
+.button4:active {
   color: var(--clr-txt-h);
   text-shadow: 0 0 .313em var(--clr-txt-sha),
                0 0 .125em var(--cl-boxsha1);
