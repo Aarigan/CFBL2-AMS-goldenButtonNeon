@@ -52,6 +52,7 @@ body {
   color: var(--clr-txt);
   border: .125em solid var(--clr-bord1);
   background-color: var(--clr-bkg);
+  /* outline-color: transparent; */
   transition: all .2s ease;
   cursor: pointer;
 }
@@ -86,6 +87,7 @@ body {
   border: .125em solid var(--clr-bord1);
   background-color: var(--clr-bkg);
   border-radius: .625em;
+  /* outline-color: transparent; */
   transition: all .2s ease;
   cursor: pointer;
 }
@@ -119,6 +121,7 @@ body {
   border: .125em solid var(--clr-bord1);
   background-color: var(--clr-bkg);
   border-radius: 3.125em;
+  /* outline-color: transparent; */
   transition: all .2s ease;
   cursor: pointer;
 }
@@ -155,6 +158,7 @@ body {
   width: 150px;
   height: 150px;
   border-radius: 50%;
+  /* outline-color: transparent; */
   transition: all .2s ease;
   cursor: pointer;
 }
