@@ -1,4 +1,3 @@
-CSS(scss)
 
 
 https://codepen.io/Aarigan/pen/KKBpqYy
